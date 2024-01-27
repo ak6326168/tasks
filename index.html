@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>TASKX</title>
+</head>
+<body>
+    <div class="alert-container" id="alert_cont">
+        <div class="alert" id="alert">alert</div>
+    </div>
+    <div class="navbar">
+        <div class="nav-items">
+            <div class="start"></div>
+            <div class="middle">
+                <div class="nav-title">TASKX</div>
+                <div class="version-disp" id="version_disp"></div>
+            </div>
+            <div class="end">
+                <button class="btn" id="login-signup-btn">Login / Signup</button>
+                <div id="profile" title="Click to logout" class="profile">
+                    ADITYA
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="notifications">
+        <div class="notifi">
+            <p> THIS APP IS IN DEVELOPEMENT.BE FIRST TO TRY.REPORT ANY ERROR OR SUGGEST CHANGES TO HELP     US MAKE IT BETTER.
+
+            </p>
+            <p>This is beta Version 1.2</p>
+            <p>CHANGES:</p>
+            <ul>
+                <li>Login and signup</li>
+                <li>you can save your tasks</li>
+                <li>Some UI changes</li>
+                <li>New Name</li>
+                <li>Alerts</li>
+                
+            </ul>
+        </div>
+    </div>
+    
+<div class="main">
+    <div class="banner" id="banner-cont">
+        <img src="banner.jpeg" alt="banner">
+    </div>
+    <div class="task-add" id="task-add">
+        <div class="task-add-form">
+            <input class="input" id="task-input" placeholder="Enter Task Name">
+            <button class="btn" id="add-task-btn">ADD TASK</button>
+            <button class="btn" id="clear-form-btn">CLEAR FORM</button>
+        </div>
+    </div>
+
+    <div class="task-disp-cont">
+        <div class="task-disp" id="task-cont">
+            
+            
+            
+        </div>
+    </div>
+    
+    <div class="report-cont" id="report-cont">
+        <div class="report-form">
+            <div class="report-title">
+                Report Anything(or suggest changes)
+            </div>
+            <div class="wrap">
+                <input class="input" id="report">
+                <button class="btn" id="report_submit">SUBMIT</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="dialog">
+        <div class="login-form" id="login-form">
+            <div class="title">Login</div>
+            <div class="login-form-main">
+                <div class="inputs">
+                    <input class="input" id="l-name-inp" type="Name" placeholder="UserName">
+                    <input class="input" id="l-pass-inp" type="password" placeholder="Password">
+                </div>
+                
+                <div class="info">
+                    Don,t Have an Account? <span id="do-signup">Create One</span>
+                </div>
+                <button class="btn" id="login-btn">Login</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="dialog">
+        <div class="signup-form" id="signup-form">
+            <div class="title">Signup</div>
+            <div class="form-main">
+                <div class="inputs">
+                    <input class="input" id="s-name-inp" type="Name" placeholder="UserName">
+                    <input class="input" id="s-pass-inp" type="password" placeholder="Password">
+                    <input class="input" id="s-confirm-pass-inp" type="password" placeholder="Confirm Password">
+                </div>
+                
+                <div class="info">
+                    Already Have an Account? <span id="do-login">Login Now</span>
+                </div>
+                <button class="btn" id="signup-btn">Signup</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    
+</div>
+
+<script src="script.js"></script>  
+</body>
+</html>
